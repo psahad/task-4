@@ -1,0 +1,185 @@
+/* div{
+    background: #1E1F25;
+} */
+
+.wraper{
+    position: relative;
+}
+
+
+
+
+.navbar{
+    position: absolute;
+    background: #1E1F25;
+    flex-grow: 1;
+    width: 77.30vw;
+    height: 7.62vh;
+    left: 20.90vw;
+    top: 2.48vh;
+    border-radius: 20px;
+}
+
+.nav-left{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 371.1px;
+    left: 19.95px;
+    top: 31.88%;
+    bottom: 31.88%;
+}
+
+h3{
+    position: static;
+    width: 62px;
+    height: 29px;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 3 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.vr{
+    position: static;
+    height: 23px;
+    left: 82px;
+    top: 3px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 20px;
+}
+
+.nav-left-a{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 267.1px;
+    height: 24px;
+    left: 104px;
+    top: 2.5px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 1;
+}
+
+.folder-icon{
+    
+    position: static;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 0px;
+}
+
+p{
+    /* Adam’s Team */
+
+
+    /* Paragraph 2 */
+
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0 ;
+    margin: 0 10px 0 12px;
+}
+
+.folder-select{
+    
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 71.1px;
+    height: 17px;
+    left: 132px;
+    top: 3.5px;
+    
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+select{
+    background-color:#1E1F25;
+    border: 0px;
+
+    /* Caps 1 - Regular */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #3C4254;
+
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+
+
