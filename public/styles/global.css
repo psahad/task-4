@@ -7,22 +7,14 @@
 body{
     background-color: #141518;
     font-family: 'Inter', sans-serif;
+    font-size: 1px;
 }
 
 a{
     text-decoration: none;
 }
 
-.box-a{
-    position: absolute;
-    background: #1E1F25;
-    height: 95.05vh;
-    width: 17.30vw;
-    left: 1.80vw;
-    top: 2.48vh;
-    border-radius: 20px;
 
-}
 
 
 .box-b{

@@ -1,0 +1,202 @@
+
+.box-a{
+    position: absolute;
+    background: #1E1F25;
+    height: 95.05vh;
+    width: 17.30vw;
+    left: 1.80vw;
+    top: 2.48vh;
+    border-radius: 20px;
+
+}
+
+.box-a .title{
+    /* Frame 129 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 13.68vw;
+    height: 2.76vh;
+    left: 1.80vw;
+    top: 2.48vh;
+
+}
+
+.title h3{
+    /* Test 4 */
+
+
+    position: static;
+    width: 72px;
+    height: 29px;
+    left: 31px;
+    top: 0px;
+
+    /* Heading 3 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+.box-a hr{
+    /* Line 44 */
+
+
+    position: absolute;
+    width: 17.30vw;
+    height: 0px;
+    left: 0px;
+    top: 7.52vh;
+
+    /* Base/Grey 80 */
+
+    border: 0.095vh solid #282C38;
+}
+
+.dash-box{
+    
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px;
+
+    position: absolute;
+    width: 17.30vw;
+    height: 24.76vh;
+    left: 0px;
+    top: 9.14vh;
+
+
+}
+
+.dashboard{
+    /* Frame 120 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.95vh 0.69vw 0.95vh 1.80vw;
+
+    position: static;
+    width: 17.30vw;
+    height: 4.19vh;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    /* margin: 0.95vh 0px; */
+    background-color: #1E1F25;
+}
+
+.store{
+    background: #282C38;
+       /* Frame 120 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0.95vh 0.69vw 0.95vh 1.80vw;
+
+    position: static;
+    width: 17.30vw;
+    height: 4.19vh;
+    left: 0px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+}
+
+.integrations{
+    /* INTEGRATIONS */
+
+
+    position: absolute;
+    width: 7.92vw;
+    height: 1.61vh;
+    left: 1.80vw;
+    top: 36.76vh;
+
+    margin: 0px;
+
+    /* Caps 1 - Bold */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Base/Grey 60 */
+
+    color: #3C4254;
+}
+
+.inte-box{
+    /* Frame 131 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px;
+
+    position: absolute;
+    width: 17.30vw;
+    height: 14.48vh;
+    left: 0px;
+    top: 42.09vh;
+
+    background-color: gray;
+
+
+}
