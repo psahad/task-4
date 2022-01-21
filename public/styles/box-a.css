@@ -1,4 +1,3 @@
-
 .box-a{
     position: absolute;
     background: #1E1F25;
@@ -11,11 +10,6 @@
 }
 
 .box-a .title{
-    /* Frame 129 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;;
     align-items: center;
@@ -30,31 +24,17 @@
 }
 
 .title h3{
-    /* Test 4 */
-
-
     position: static;
     width: 72px;
     height: 29px;
     left: 31px;
     top: 0px;
-
-    /* Heading 3 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 24px;
     line-height: 29px;
-    /* identical to box height */
-
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -63,24 +43,15 @@
 }
 
 .box-a hr{
-    /* Line 44 */
-
-
     position: absolute;
     width: 17.30vw;
     height: 0px;
     left: 0px;
     top: 7.52vh;
-
-    /* Base/Grey 80 */
-
     border: 0.095vh solid #282C38;
 }
 
 .dash-box{
-    
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -96,11 +67,6 @@
 }
 
 .dashboard{
-    /* Frame 120 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -112,14 +78,10 @@
     left: 0px;
     top: 0px;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    /* margin: 0.95vh 0px; */
     background-color: #1E1F25;
 }
 
@@ -130,11 +92,6 @@
 
 .store{
     background: #282C38;
-       /* Frame 120 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -145,10 +102,6 @@
     height: 4.19vh;
     left: 0px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -160,9 +113,6 @@
 }
 
 .integrations{
-    /* INTEGRATIONS */
-
-
     position: absolute;
     width: 7.92vw;
     height: 1.61vh;
@@ -170,30 +120,17 @@
     top: 36.76vh;
 
     margin: 0px;
-
-    /* Caps 1 - Bold */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
     letter-spacing: 0.04em;
     text-transform: uppercase;
-
-    /* Base/Grey 60 */
-
     color: #3C4254;
 }
 
 .inte-box{
-    /* Frame 131 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -216,39 +153,24 @@
 }
 
 .accounts{
-    /* ACCOUNT */
-
-
     position: absolute;
     width: 5.21vw;
     height: 1.62vh;
     left: 1.80vw;
     top: 60vh;
-
-    /* Caps 1 - Bold */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
     letter-spacing: 0.04em;
     text-transform: uppercase;
-
-    /* Base/Grey 60 */
     margin: 0px;
 
     color: #3C4254;
 }
 
 .acco-box{
-    /* Frame 139 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -259,14 +181,9 @@
     height: 9.33vh;
     left: 0px;
     top: 63.43vh;
-
-
 }
 
 .user-box{
-    /* Rectangle 562 */
-
-
     position: absolute;
     width: 17.30vw;
     height: 11vh;
@@ -278,19 +195,11 @@
     align-items: center;
     justify-content: space-around;
 
-
-    /* Base/Grey 80 */
-
     background: #282C38;
     border-radius: 0px 0px 20px 20px;
 }
 
 .user{
-    /* Frame 133 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -304,17 +213,11 @@
 }
 
 .user img{
-    /* Ellipse 48 */
-
-
     position: static;
     width: 42px;
     height: 42px;
     left: 0px;
     top: 0px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -323,8 +226,6 @@
 }
 
 .user-details{
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -335,10 +236,6 @@
     height: 5.7vh;
     left: 52px;
     top: 2.5px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -352,22 +249,12 @@
     left: 0px;
     top: 0px;
 
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -376,34 +263,21 @@
 }
 
 .user-details p:nth-child(2){
-    /* Simpson2@mail.com */
-
-
     position: static;
     width: 118px;
     height: 15px;
     left: 0px;
     top: 22px;
 
-    /* Paragraph 3 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 15px;
-    /* identical to box height */
-
-
-    /* Base/Grey 60 */
-
-    color: #3C4254;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
     margin: 0%;
+    
+    color: #3C4254;
 }

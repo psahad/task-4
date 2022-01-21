@@ -10,8 +10,6 @@
 }
 
 .box-d .container{
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -22,16 +20,10 @@
     right: 6.49%;
     top: 2.24%;
     bottom: 2.13%;
-
     
 }
 
 .notifications{
-    /* Frame 148 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,10 +34,6 @@
     height: 24px;
     left: 0px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -54,34 +42,22 @@
 }
 
 .notifications img{
-    /* Iconly/Light/Notification */
-
-
     position: static;
     left: 0%;
     right: 84.62%;
     top: 0%;
     bottom: 0%;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;   
 }
 
 .notifications p{
-    /* Notifications */
-
-
     position: static;
     width: 122px;
     height: 24px;
     left: 0px;
     top: 0px;
-
-    /* Heading 4 */
 
     font-family: Inter;
     font-style: normal;
@@ -89,12 +65,7 @@
     font-size: 20px;
     line-height: 24px;
 
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -103,11 +74,6 @@
 }
 
 .noti-details{
-    /* Frame 240 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -117,21 +83,12 @@
     width: 100%;
     height: 27.85vh;
     left: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
 }
 
 .noti-item{
-    /* Frame 237 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -142,11 +99,6 @@
     height: 5.52vh;
     left: 0px;
     top: 0px;
-
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -159,8 +111,6 @@
     left: 0px;
     top: 0px;
 
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -169,11 +119,6 @@
 }
 
 .noti-desc{
-    /* Frame 990 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -185,9 +130,6 @@
     left: 66px;
     top: 0px;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -196,32 +138,17 @@
 }
 
 .noti-desc p:nth-child(1){
-    /* Purchase */
-
-
     position: static;
     width: 4.03vw;
     height: 1.52vh;
     left: 0px;
     top: 0px;
-
-    /* Heading 6 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -230,32 +157,17 @@
 }
 
 .noti-desc p{
-    /* people Purchase the product */
-
-
     position: static;
     width: 13.33vw;
     height: 1.52vh;
     left: 0px;
     top: 21px;
-
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 40 */
-
     color: #757B8C;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -264,32 +176,18 @@
 }
 
 .noti-desc p:last-child{
-    /* people Purchase the product */
-
-
     position: static;
     width: 13.33vw;
     height: 1.52vh;
     left: 0px;
     top: 21px;
-
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 40 */
 
     color: #757B8C;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -300,11 +198,6 @@
 
 
 .customers{
-    /* Frame 241 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -315,10 +208,6 @@
     height: 24px;
     left: 0px;
     top: 422px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 3;
     align-self: stretch;
@@ -327,17 +216,11 @@
 }
 
 .customers img{
-    /* Iconly/Light/Notification */
-
-
     position: static;
     left: 0%;
     right: 84.62%;
     top: 422px;
     bottom: 0%;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 0;
@@ -345,48 +228,24 @@
 }
 
 .customers p{
-    /* Notifications */
-
-
     position: static;
     width: 100%;
     height: 24px;
     left: 0px;
     top: 422px;
-
-    /* Heading 4 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
     margin: 0px 10px;
 }
 
-/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
-
-/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
-
-
-
 .cust-details{
-    /* Frame 237 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -398,9 +257,6 @@
     left: 0px;
     top: 486px;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 5;
     flex-grow: 0;
@@ -411,11 +267,6 @@
 
 
 .cust-item{
-    /* Frame 237 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -426,11 +277,6 @@
     height: 5.52vh;
     left: 0px;
     top: 0px;
-
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -442,9 +288,6 @@
     height: 4.38vh;
     left: 0px;
     top: 0px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -453,11 +296,6 @@
 }
 
 .cust-desc{
-    /* Frame 990 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -469,10 +307,6 @@
     height: 5.52vh;
     left: 66px;
     top: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -481,32 +315,17 @@
 }
 
 .cust-desc p:nth-child(1){
-    /* Purchase */
-
-
     position: static;
     width: 4.03vw;
     height: 1.52vh;
     left: 0px;
     top: 0px;
-
-    /* Heading 6 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -515,32 +334,17 @@
 }
 
 .cust-desc p{
-    /* people Purchase the product */
-
-
     position: static;
     width: 13.33vw;
     height: 1.52vh;
     left: 0px;
     top: 21px;
-
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 40 */
-
     color: #757B8C;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
@@ -549,31 +353,17 @@
 }
 
 .cust-desc p:last-child{
-    /* people Purchase the product */
-
-
     position: static;
     width: 13.33vw;
     height: 1.52vh;
     left: 0px;
     top: 21px;
-
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 1.24vh;
     line-height: 1.52vh;
-    /* identical to box height */
-
-
-    /* Base/Grey 40 */
-
     color: #757B8C;
-
-
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -583,10 +373,6 @@
 }
 
 .invite{
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -600,9 +386,6 @@
 
     background: #246CF9;
     border-radius: 15px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 7;
     align-self: stretch;
@@ -612,18 +395,11 @@
 }
 
 .invite img{
-    /* Group 127 */
-
-
     position: static;
     width: 4.38vh;
     height: 4.38vh;
     left: 20px;
     top: 20px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -632,11 +408,6 @@
 }
 
 .invite-note{
-    /* Frame 993 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -648,9 +419,6 @@
     left: 20px;
     bottom: 7.57vh;
 
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     align-self: stretch;
@@ -660,30 +428,18 @@
 }
 
 .invite-note h4{
-    /* Invite New Seller */
-
-
     position: static;
     width: 228px;
     height: 24px;
     left: 0px;
     top: 0px;
 
-    /* Heading 4 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     align-self: stretch;
@@ -692,30 +448,21 @@
 }
 
 .invite-note p{
-    /* Refer a new seller to us and earn $100 */
-
-
     position: static;
     width: 228px;
     height: 34px;
     left: 0px;
     top: 34px;
-
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 17px;
 
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
 
     opacity: 0.6;
 
-    /* Inside auto layout */
 
     flex: none;
     order: 1;
@@ -725,11 +472,6 @@
 }
 
 .invite-btn{
-    /* Frame 988 */
-
-
-    /* Auto layout */
-
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -741,14 +483,8 @@
     height: 6vh;
     left: 20px;
     bottom: 2.9vh;
-
-    /* Base/Grey 0 */
-
     background: #FFFFFF;
     border-radius: 15px;
-
-    /* Inside auto layout */
-
     flex: none;
     order: 2;
     align-self: stretch;
@@ -758,34 +494,19 @@
 }
 
 .invite button{
-    /* Invite Now */
-
-
     position: static;
     width: 72px;
     height: 17px;
     left: 78px;
     top: 15px;
-
-    /* Button */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
     line-height: 17px;
-    /* identical to box height */
-
-
-    /* Brand/Royalblue */
-
     color: #246CF9;
     background-color: #fff;
     border: 0px;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
