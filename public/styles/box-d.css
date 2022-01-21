@@ -23,7 +23,7 @@
     top: 2.24%;
     bottom: 2.13%;
 
-    background-color: gray;
+    
 }
 
 .notifications{
@@ -34,7 +34,6 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 0px;
 
@@ -51,9 +50,56 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
-    margin-bottom: 0.95vh;
+    margin-bottom: 1.90vh;
+}
 
-    background-color: green;
+.notifications img{
+    /* Iconly/Light/Notification */
+
+
+    position: static;
+    left: 0%;
+    right: 84.62%;
+    top: 0%;
+    bottom: 0%;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+
+.notifications p{
+    /* Notifications */
+
+
+    position: static;
+    width: 122px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 4 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
 
 .noti-details{
@@ -68,10 +114,9 @@
     padding: 0px;
 
     position: static;
-    width: 268px;
-    height: 338px;
+    width: 100%;
+    height: 27.85vh;
     left: 0px;
-    top: 44px;
 
 
     /* Inside auto layout */
@@ -79,10 +124,180 @@
     flex: none;
     order: 1;
     flex-grow: 0;
-    margin: 20px 0px;
-
-    background-color: orchid;
 }
+
+.noti-item{
+    /* Frame 237 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 100%;
+    height: 5.52vh;
+    left: 0px;
+    top: 0px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.noti-item img{
+    position: relative;
+    width: 4.38vh;
+    height: 4.38vh;
+    left: 0px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+
+}
+
+.noti-desc{
+    /* Frame 990 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 12.33vw;
+    height: 5.52vh;
+    left: 66px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+
+.noti-desc p:nth-child(1){
+    /* Purchase */
+
+
+    position: static;
+    width: 4.03vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 6 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.noti-desc p{
+    /* people Purchase the product */
+
+
+    position: static;
+    width: 13.33vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 21px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 40 */
+
+    color: #757B8C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.noti-desc p:last-child{
+    /* people Purchase the product */
+
+
+    position: static;
+    width: 13.33vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 21px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 40 */
+
+    color: #757B8C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
 
 .customers{
     /* Frame 241 */
@@ -92,12 +307,11 @@
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding: 0px;
 
     position: static;
-    width: 268px;
+    width: 100%;
     height: 24px;
     left: 0px;
     top: 422px;
@@ -110,9 +324,62 @@
     align-self: stretch;
     flex-grow: 0;
     margin: 20px 0px;
-
-    background-color: yellow;
 }
+
+.customers img{
+    /* Iconly/Light/Notification */
+
+
+    position: static;
+    left: 0%;
+    right: 84.62%;
+    top: 422px;
+    bottom: 0%;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;   
+}
+
+.customers p{
+    /* Notifications */
+
+
+    position: static;
+    width: 100%;
+    height: 24px;
+    left: 0px;
+    top: 422px;
+
+    /* Heading 4 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
+}
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+/* hhhhhhhhhhhhhhhhhhhhhhhhhhhhjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+
 
 .cust-details{
     /* Frame 237 */
@@ -121,14 +388,13 @@
     /* Auto layout */
 
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
     padding: 0px;
 
     position: static;
-    width: 536px;
-    height: 96px;
+    width: 100%;
+    height: 11.14vh;
     left: 0px;
     top: 486px;
 
@@ -138,9 +404,182 @@
     flex: none;
     order: 5;
     flex-grow: 0;
-    margin: 20px 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
 
-    background-color: blue;
+
+
+.cust-item{
+    /* Frame 237 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: static;
+    width: 100%;
+    height: 5.52vh;
+    left: 0px;
+    top: 0px;
+
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.cust-item img{
+    position: relative;
+    width: 4.38vh;
+    height: 4.38vh;
+    left: 0px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 20px;
+
+}
+
+.cust-desc{
+    /* Frame 990 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-evenly;
+    padding: 0px;
+
+    position: static;
+    width: 12.33vw;
+    height: 5.52vh;
+    left: 66px;
+    top: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+
+.cust-desc p:nth-child(1){
+    /* Purchase */
+
+
+    position: static;
+    width: 4.03vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 6 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 0px;
+    margin-bottom: 2px;
+}
+
+.cust-desc p{
+    /* people Purchase the product */
+
+
+    position: static;
+    width: 13.33vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 21px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 40 */
+
+    color: #757B8C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 2px;
+    margin-top: 0px;
+}
+
+.cust-desc p:last-child{
+    /* people Purchase the product */
+
+
+    position: static;
+    width: 13.33vw;
+    height: 1.52vh;
+    left: 0px;
+    top: 21px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.24vh;
+    line-height: 1.52vh;
+    /* identical to box height */
+
+
+    /* Base/Grey 40 */
+
+    color: #757B8C;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 .invite{
@@ -154,8 +593,8 @@
     padding: 20px;
 
     position: static;
-    width: 268px;
-    height: 235px;
+    width: 100%;
+    height: 25.38vh;
     left: 0px;
     top: 618px;
 
@@ -168,5 +607,187 @@
     order: 7;
     align-self: stretch;
     flex-grow: 0;
-    margin: 20px 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.invite img{
+    /* Group 127 */
+
+
+    position: static;
+    width: 4.38vh;
+    height: 4.38vh;
+    left: 20px;
+    top: 20px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.invite-note{
+    /* Frame 993 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: absolute;
+    width: 15.83vw;
+    height: 6.48vh;
+    left: 20px;
+    bottom: 7.57vh;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 25px 0px;
+
+}
+
+.invite-note h4{
+    /* Invite New Seller */
+
+
+    position: static;
+    width: 228px;
+    height: 24px;
+    left: 0px;
+    top: 0px;
+
+    /* Heading 4 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    align-self: stretch;
+    flex-grow: 0;
+    margin:  0px;
+}
+
+.invite-note p{
+    /* Refer a new seller to us and earn $100 */
+
+
+    position: static;
+    width: 228px;
+    height: 34px;
+    left: 0px;
+    top: 34px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+    opacity: 0.6;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    margin:  1px 0px;
+}
+
+.invite-btn{
+    /* Frame 988 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 8px;
+
+    position: absolute;
+    width: 16vw;
+    height: 6vh;
+    left: 20px;
+    bottom: 2.9vh;
+
+    /* Base/Grey 0 */
+
+    background: #FFFFFF;
+    border-radius: 15px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 2;
+    align-self: stretch;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+
+.invite button{
+    /* Invite Now */
+
+
+    position: static;
+    width: 72px;
+    height: 17px;
+    left: 78px;
+    top: 15px;
+
+    /* Button */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Brand/Royalblue */
+
+    color: #246CF9;
+    background-color: #fff;
+    border: 0px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px 10px;
 }
