@@ -123,6 +123,11 @@
     background-color: #1E1F25;
 }
 
+.dash-box p{
+    color: #757B8C;
+    font-size: 14px;
+}
+
 .store{
     background: #282C38;
        /* Frame 120 */
@@ -148,6 +153,10 @@
     order: 0;
     align-self: stretch;
     flex-grow: 0;
+}
+
+.store p{
+    color: #FFFFFF;
 }
 
 .integrations{
@@ -196,7 +205,205 @@
     left: 0px;
     top: 42.09vh;
 
-    background-color: gray;
+    color: #757B8C;
+
+}
+
+.inte-box p{
+    color: #757B8C;
+    font-size: 14px;
+
+}
+
+.accounts{
+    /* ACCOUNT */
 
 
+    position: absolute;
+    width: 5.21vw;
+    height: 1.62vh;
+    left: 1.80vw;
+    top: 60vh;
+
+    /* Caps 1 - Bold */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+
+    /* Base/Grey 60 */
+    margin: 0px;
+
+    color: #3C4254;
+}
+
+.acco-box{
+    /* Frame 139 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding: 0px;
+
+    position: absolute;
+    width: 17.30vw;
+    height: 9.33vh;
+    left: 0px;
+    top: 63.43vh;
+
+
+}
+
+.user-box{
+    /* Rectangle 562 */
+
+
+    position: absolute;
+    width: 17.30vw;
+    height: 11vh;
+    left: 0px;
+    bottom: 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
+
+    /* Base/Grey 80 */
+
+    background: #282C38;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.user{
+    /* Frame 133 */
+
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+
+    position: absolute;
+    width: 13.7vw;
+    height: 5.7vh;
+
+
+}
+
+.user img{
+    /* Ellipse 48 */
+
+
+    position: static;
+    width: 42px;
+    height: 42px;
+    left: 0px;
+    top: 0px;
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-right: 10px;
+
+}
+
+.user-details{
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+
+    position: static;
+    width: 118px;
+    height: 5.7vh;
+    left: 52px;
+    top: 2.5px;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.user-details p:nth-child(1){
+    position: static;
+    width: 99px;
+    height: 17px;
+    left: 0px;
+    top: 0px;
+
+    /* Paragraph 2 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+
+
+    /* Base/Grey 0 */
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 5px 0px;
+}
+
+.user-details p:nth-child(2){
+    /* Simpson2@mail.com */
+
+
+    position: static;
+    width: 118px;
+    height: 15px;
+    left: 0px;
+    top: 22px;
+
+    /* Paragraph 3 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    /* identical to box height */
+
+
+    /* Base/Grey 60 */
+
+    color: #3C4254;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0%;
 }
