@@ -1,0 +1,118 @@
+.box-e{
+    position: absolute;
+    height:4.81vh;
+    width: 54.1vw;
+    left: 20.90vw;
+    top: 60.53vh;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box-e div{
+    height: 100%;
+}
+
+.box-e p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    color: #246CF9;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 0px;
+}
+
+.box-e .one{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    height: 100%;
+    width: 21%;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+
+.box-e .two{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    position: static;
+    width: 45%;
+    height: 100%;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+    margin: 0px;
+
+}
+
+.two select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0% 2%;
+    position: static;
+    width: 35%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #1E1F25;
+    border: 1px solid #3C4254;
+    border-radius: 10px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757B8C;
+}
+
+
+.two .search-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    padding: 12px;
+    position: static;
+    width: 58%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    background: #1E1F25;
+    border: 1px solid #3C4254;
+    border-radius: 10px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.two .search-box input{
+    background-color: #1E1F25;;
+    border: none;
+    width: 70%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #757B8C;
+    padding-left: 5%;
+}

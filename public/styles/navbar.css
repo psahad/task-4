@@ -113,7 +113,7 @@ p{
     margin: 0px 10px;
 }
 
-select{
+.folder-select select{
     background-color:#1E1F25;
     border: 0px;
     font-family: Inter;
@@ -141,7 +141,7 @@ select{
     bottom: 25%;
 }
 
-.search-box{
+.navbar .search-box{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -162,7 +162,7 @@ select{
     margin: 0px 20px;
 }
 
-.search-box input{
+.navbar .search-box input{
     background-color: #282C38;
     border: none;
 

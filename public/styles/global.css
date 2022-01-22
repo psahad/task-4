@@ -17,23 +17,4 @@ a{
 
 
 
-.box-b{
-    position: absolute;
-    background: #1E1F25;
-    height:29.81vh;
-    width: 54.1vw;
-    left: 20.90vw;
-    top: 21.53vh;
-    border-radius: 20px;
-}
-
-.box-c{
-    position: absolute;
-    background: #1E1F25;
-    height:29.81vh;
-    width: 54.1vw;
-    left: 20.90vw;
-    top: 67.71vh;
-    border-radius: 20px;
-}
 
