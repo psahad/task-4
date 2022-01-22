@@ -9,7 +9,7 @@
 
 }
 
-.box-c table{
+table{
     position: absolute;
     width: 100%;
     height: 100%; 
@@ -25,13 +25,18 @@
     overflow: hidden;
 }
 
+.box-c th:first-child p, .box-c th:last-child p{
+    visibility: hidden;
+}
+
 .box-c th p{
     font-size: 0.85rem;
+    letter-spacing: 0.02rem;
 }
 
 .box-c td p{
     color: #757B8C;
-    font-size: 0.85rem;
+    
     letter-spacing: 0.02rem;
 }
 
