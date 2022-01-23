@@ -6,10 +6,123 @@
     left: 20.90vw;
     top: 28.53vh;
     border-radius: 20px;
+}
 
+.box-b .chart-details{
+    position: absolute;
+    height:15%;
+    width: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: row;
     align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.chart-details .details-left{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+}
+
+.chart-details .details-right{
+    height: 100%;
+    width: 55%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details-right .legent-container{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.legent-container .sales, .legent-container .balance{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+.sales div{
+    height: 5px;
+    width: 5px;
+    background: #11CABE;
+}
+
+.balance div{
+    height: 5px;
+    width: 5px;
+    background: #246CF9;
+}
+
+.box-b h5{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    margin-left: 20px;
+    color: #FFFFFF;
+}
+
+.box-b .btn-container{
+    height: 80%;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    flex: none;
+    order: 1;
+    margin-right: 20px;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.06);
+    
+}
+
+.btn-container .btn-daily{
+    height: 100%;
+    width: 45%;
+    border-radius: 8px 0px 0px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #246CF9;
+}
+.btn-container .btn-monthly{
+    height: 100%;
+    width: 55%;
+    border-radius: 0px 8px 8px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #282C38;
+
+}
+
+.btn-daily p{
+    color: #fff;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+}
+
+.btn-monthly p{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-align: center;
+    color: #757B8C;
 }
 
 .box-b #chart{
@@ -17,5 +130,5 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-
+    margin: 15px 0px 0px 30px;
 }
