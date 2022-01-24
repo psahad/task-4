@@ -512,3 +512,11 @@
     flex-grow: 0;
     margin: 0px 10px;
 }
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+@media screen and (max-width: 900px){
+    .box-d{
+        display: none;
+    }
+}

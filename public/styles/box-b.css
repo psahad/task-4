@@ -132,3 +132,11 @@
     align-items: center;
     margin: 15px 0px 0px 30px;
 }
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+@media screen and (max-width: 900px){
+    .box-b{
+        display: none;
+    }
+}

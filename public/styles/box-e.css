@@ -116,3 +116,9 @@
     color: #757B8C;
     padding-left: 5%;
 }
+
+@media screen and (max-width: 900px){
+    .box-e{
+        display: none;
+    }
+}

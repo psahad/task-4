@@ -8,18 +8,69 @@ body{
     background-color: #141518;
     font-family: 'Inter', sans-serif;
     font-size: 1px;
+
+    /* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+    display: flex;
+    flex-direction: row;
 }
 
 a{
     text-decoration: none;
 }
-/* 
+
+
 @media screen and  (max-width: 900px) {
-    
-    .left container{
-        right: -200px;
+
+    body{
+        height: 1965px;
+        
     }
-} */
+
+        
+    /* .left-container{
+        width: 20vw;
+        height: 100vh;
+        background-color: rgb(51, 68, 33);
+        display: none;
+    }
+    .right-container{
+        width: 100vw;
+        height: 1965px;
+        left: 20.90vw;
+    }
+     */
+    .right-container{
+        display: flex;
+        width: 100vw;
+        flex-direction: column;
+    }
+
+    .right-container .navbar{
+
+        order: 0;
+    }
+    .right-container .box-g{
+        left: 20px;
+        order: 1;
+    }
+    .right-container .box-f{
+        left: 20px;
+        order: 2;
+    } 
+    .right-container .box-e{
+        left: 20px;
+        order: 3;
+    } 
+    .right-container .box-c{
+        left: 20px;
+        order: 4;
+    }
+    .right-container .box-d{
+        left: 20px;
+        top:900px;
+        order: 5;
+    } 
+}
 
 
 

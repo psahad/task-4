@@ -50,23 +50,12 @@
 }
 
 .text-wraper p{
-    /* Paragraph 2 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
     line-height: 17px;
-    /* identical to box height */
-
-
-    /* Base/Grey 40 */
-
     color: #757B8C;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 0;
     flex-grow: 0;
@@ -74,23 +63,33 @@
 }
 
 .text-wraper h4{
-    /* Heading 4 */
-
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
     font-size: 17px;
     line-height: 24px;
-
-    /* Base/Grey 0 */
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
     flex: none;
     order: 1;
     flex-grow: 0;
-    /* margin: 5px 0px; */
+}
+
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+@media screen and (max-width: 900px){
+    .box-f{
+        top: 150px;
+        width: 100%;
+        overflow-x: auto;
+    }
+
+    .box-f::-webkit-scrollbar{
+        width: 0;
+    }
+
+    .box-f .containers{
+        min-width: 175px;
+        margin-right: 20px;
+    }
 }

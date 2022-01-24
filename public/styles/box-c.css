@@ -128,5 +128,11 @@ tbody tr:nth-child(odd){
     background-color: #282C38;
 }
 
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
 
+@media screen and (max-width: 900px){
+    .box-c{
+        display: none;
+    }
+}
 
