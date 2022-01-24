@@ -13,7 +13,13 @@ body{
 a{
     text-decoration: none;
 }
-
+/* 
+@media screen and  (max-width: 900px) {
+    
+    .left container{
+        right: -200px;
+    }
+} */
 
 
 

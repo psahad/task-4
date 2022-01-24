@@ -7,7 +7,17 @@
     top: 2.48vh;
     border-radius: 20px;
 
+
+    
 }
+
+@media screen and  (max-width: 900px) {
+    
+    .box-a{
+        left: -200px;
+    }
+}
+
 
 .box-a .title{
     display: flex;
@@ -281,3 +291,5 @@
     
     color: #3C4254;
 }
+
+
