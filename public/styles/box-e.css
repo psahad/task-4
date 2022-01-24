@@ -119,6 +119,17 @@
 
 @media screen and (max-width: 900px){
     .box-e{
+        top: 250px;
+        display: flex;
+        flex-direction: column;
         display: none;
+    }
+
+    .box-e .two{
+        order: 0;
+        width: 100VW;
+    }
+    .box-e p{
+        order: 1;
     }
 }

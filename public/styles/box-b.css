@@ -87,8 +87,8 @@
 
 .btn-container .btn-daily{
     height: 100%;
-    width: 45%;
-    border-radius: 8px 0px 0px 8px;
+    width: 40%;
+    border-radius: 5px 0px 0px 5px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,8 +96,8 @@
 }
 .btn-container .btn-monthly{
     height: 100%;
-    width: 55%;
-    border-radius: 0px 8px 8px 0px;
+    width: 60%;
+    border-radius: 0px 5px 5px 0px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -113,6 +113,7 @@
     font-size: 13px;
     line-height: 16px;
     text-align: center;
+    margin: 0;
 }
 
 .btn-monthly p{
@@ -130,13 +131,104 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 15px 0px 0px 30px;
+    margin: 15px 0px 0px 25px;
+}
+
+.box-b #chart-mobile{
+    display: none;
+}
+
+/* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
+
+.details-left .btn-container{
+    display: none;
 }
 
 /* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
 
 @media screen and (max-width: 900px){
     .box-b{
+        width: 88.5vw;
+        height: 290px;
+    }
+
+    .box-b .chart-details{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        margin-top: 20px;
+
+        flex-shrink: 0;
+    }
+
+    .box-b h5{
+        font-size: 13px;
+        font-weight: 300;
+    }
+
+    .chart-details .details-left{
+        width: 100%;
+        height: 25px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-shrink: 0;
+    }
+
+    .chart-details .details-right{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 25px;
+        flex-shrink: 0;
+    }
+
+    .details-left .btn-container{
+        display: flex;
+        flex-direction: row;
+        font-size: 12px;
+        
+    }
+
+    .details-left .btn-container .btn-daily{
+        font-size: 10px;
+        order: 0;
+    }
+
+    .btn-daily p, .btn-monthly p{
+        font-size: 10px;
+    }
+
+    .details-left .btn-container .btn-monthly{
+        order: 1;
+    }
+
+    .details-right .btn-container{
         display: none;
+    }
+
+    .details-right .legent-container{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        margin-left: 20px;
+    }
+
+    .legent-container .sales p, .legent-container .balance p{
+        font-size: 13px;
+        font-weight: 300;
+    }
+    .box-b #chart{
+        display: none;
+    }
+
+    .box-b #chart-mobile{
+        position: absolute;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 45px 0px 0px 0px;
+        padding-top: 9px;
+        padding-left: 35px;
     }
 }

@@ -43,6 +43,7 @@ a{
         display: flex;
         width: 100vw;
         flex-direction: column;
+        justify-content: center;
     }
 
     .right-container .navbar{
@@ -57,18 +58,22 @@ a{
         left: 20px;
         order: 2;
     } 
-    .right-container .box-e{
+    .right-container .box-b{
         left: 20px;
         order: 3;
     } 
-    .right-container .box-c{
+    .right-container .box-e{
         left: 20px;
         order: 4;
+    } 
+    .right-container .box-c{
+        left: 20px;
+        order: 5;
     }
     .right-container .box-d{
         left: 20px;
         top:900px;
-        order: 5;
+        order: 6;
     } 
 }
 
