@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 body{
     background-color: #141518;
     font-family: 'Inter', sans-serif;
@@ -22,7 +26,8 @@ a{
 @media screen and  (max-width: 900px) {
 
     body{
-        height: 1965px;
+        height: 1670px;
+        
         
     }
 

@@ -378,7 +378,7 @@
     align-items: flex-start;
     padding: 20px;
 
-    position: static;
+    
     width: 100%;
     height: 25.38vh;
     left: 0px;
@@ -395,7 +395,6 @@
 }
 
 .invite img{
-    position: static;
     width: 4.38vh;
     height: 4.38vh;
     left: 20px;
@@ -404,7 +403,7 @@
     order: 0;
     flex-grow: 0;
     margin-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .invite-note{
@@ -412,9 +411,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 0px;
-
-    position: absolute;
-    width: 15.83vw;
+    width: 100%;
     height: 6.48vh;
     left: 20px;
     bottom: 7.57vh;
@@ -423,13 +420,13 @@
     order: 1;
     align-self: stretch;
     flex-grow: 0;
-    margin: 25px 0px;
+    margin-bottom: 10px;
 
 }
 
 .invite-note h4{
-    position: static;
-    width: 228px;
+    
+    width: 100%;
     height: 24px;
     left: 0px;
     top: 0px;
@@ -448,8 +445,7 @@
 }
 
 .invite-note p{
-    position: static;
-    width: 228px;
+    width: 100%;
     height: 34px;
     left: 0px;
     top: 34px;
@@ -477,9 +473,8 @@
     justify-content: center;
     align-items: center;
     padding: 15px 8px;
-
-    position: absolute;
-    width: 16vw;
+    
+    width: 100%;
     height: 6vh;
     left: 20px;
     bottom: 2.9vh;
@@ -494,7 +489,6 @@
 }
 
 .invite button{
-    position: static;
     width: 72px;
     height: 17px;
     left: 78px;
@@ -517,6 +511,51 @@
 
 @media screen and (max-width: 900px){
     .box-d{
-        display: none;
+        top: 900px;
+        width: 88.5vw;
+
+        margin-top: 10px;
     }
+
+    .container .notifications{
+        order: 0;
+    }
+
+    .container .noti-details{
+        order: 1;
+        height: 266px;
+    }
+
+    .container .customers{
+        order: 2;
+    }
+
+    .container .cust-details{
+        order: 3;
+        height: 115px;
+    }
+
+    .noti-item, .cust-item{
+        margin: 3px 0px;
+    }
+
+    .noti-item .noti-desc{
+        width: 70%;
+    }
+
+    .noti-item .noti-desc p{
+        width: 100%;
+    }
+
+    .cust-details .cust-desc{
+        width: 70%;
+        justify-content: center;
+    }
+
+    .cust-item .cust-desc p {
+        width: 100%;
+        margin-bottom: 2px;
+    }
+
+
 }
