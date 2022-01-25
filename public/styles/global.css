@@ -40,7 +40,7 @@ a{
     }
      */
     .right-container{
-        display: flex;
+        display: flex !important;
         width: 100vw;
         flex-direction: column;
         justify-content: center;
@@ -48,11 +48,11 @@ a{
 
     .right-container .navbar{
 
-        order: 0;
+        order: 0 !important;
     }
     .right-container .box-g{
         left: 20px;
-        order: 1;
+        order: 0;
     }
     .right-container .box-f{
         left: 20px;

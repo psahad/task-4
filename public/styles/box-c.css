@@ -25,6 +25,10 @@ table{
     overflow: hidden;
 }
 
+.box-c .table-m{
+    display: none;
+}
+
 .box-c th:first-child p, .box-c th:last-child p{
     visibility: hidden;
 }
@@ -131,8 +135,32 @@ tbody tr:nth-child(odd){
 /* jjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjjj */
 
 @media screen and (max-width: 900px){
+
     .box-c{
+        top: 640px;
+        width: 88.5vw;
+    }
+
+    .box-c .table-m{
+        display: unset;
+    }
+
+    .box-c .table-d{
         display: none;
     }
+
+    .box-c .table-m p{
+        font-size: 0.8rem;
+    }
+
+    .table-m th p{
+        margin-left: 0px;
+    }
+    
+    .box-c th:last-child p{
+        visibility: unset;
+    }
+
+    
 }
 
