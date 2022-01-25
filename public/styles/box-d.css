@@ -104,6 +104,11 @@
     flex-grow: 0;
 }
 
+.noti-item:hover{
+    cursor: pointer;
+    background-color: #282C38;
+}
+
 .noti-item img{
     position: relative;
     width: 4.38vh;
@@ -280,6 +285,11 @@
     flex: none;
     order: 0;
     flex-grow: 0;
+}
+
+.cust-item:hover{
+    cursor: pointer;
+    background-color: #282C38;
 }
 
 .cust-item img{

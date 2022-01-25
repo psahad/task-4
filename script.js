@@ -124,8 +124,11 @@ const menuIcon = document.querySelector('.hamburger');
 
 const navLeft = document.querySelector('.nav-left')
 
+const boxA = document.querySelector('.box-a')
+
 menuIcon.addEventListener('click', () => {
     navLeft.classList.toggle('change')
+    boxA.classList.toggle('change')
 })
 
 

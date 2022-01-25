@@ -16,6 +16,7 @@
     .box-a{
         left: -200px;
     }
+
 }
 
 
@@ -93,6 +94,10 @@
     align-self: stretch;
     flex-grow: 0;
     background-color: #1E1F25;
+}
+
+.dashboard:hover{
+    background-color: #282C38;
 }
 
 .dash-box p{
