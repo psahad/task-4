@@ -118,3 +118,14 @@
 
         table.draw(data, options);
         }
+
+
+const menuIcon = document.querySelector('.hamburger');
+
+const navLeft = document.querySelector('.nav-left')
+
+menuIcon.addEventListener('click', () => {
+    navLeft.classList.toggle('change')
+})
+
+
